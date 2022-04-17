@@ -1,0 +1,383 @@
+/* tablet and mobile */
+@media  (max-width: 1023px){
+    
+    #main{
+        width:100%;
+       
+    }
+    .header-main{
+        flex-wrap: wrap;
+    }
+    .body-item-content{
+        margin-bottom: 24px;
+    }
+    
+    .blog-body{
+        flex-wrap: wrap;
+    }
+    .blog-desc,.action-blog{
+        position:static;
+    }
+    
+    .footer-content{
+        display:block;
+        padding:40px 16px 60px;
+    } 
+    .about-us-container{
+        
+        flex-wrap: wrap;
+    }
+    .about-us-heading{
+        line-height: 44px;
+    }
+    .cta-about-text, .cta-image{
+        position:static;
+    }
+    .cta-about-text{
+        margin-top: 24px;
+    }
+
+    .cta-download{
+        display: flex;
+        gap:0 24px;
+        justify-content:center;
+        margin-top:24px;
+        align-items: center;
+    }
+    .img-phone{
+        width:100%
+    }
+    .menu{
+        display:none;
+    }
+    .ourachievement-container{
+        padding:36px 36px;
+        flex-wrap: wrap;
+        
+    }
+    .ourach-content{
+        margin-left: 0px;
+        margin-top:48px;
+    }
+
+    .img-logo{
+        position:absolute;
+        left:50%;
+        transform:translateX(-50%);
+        top:21px;
+    }
+    .header-search{
+        right: 0px;
+        top:32px;
+    
+        
+    }
+    .header-input-search{
+        width:50px;
+        margin-right: 8px;
+        display:none;
+    }
+    .header-content {
+        margin-top: 40px;
+    }
+    .cards-info{
+        flex-direction: column;
+        gap:32px 0;
+    }
+    .footer-bottom-container{
+        padding:8px 0;
+    }
+    .nav-bar-mobile-header{
+        padding:16px 24px;
+        background:linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .icon-login{
+        display: block;
+    }
+    .nav-bar-mobile{
+        
+    }
+    .nav__overlay{
+        
+    }
+}
+/*tablet*/
+@media (min-width:768px) and (max-width: 1023px){
+    .about-us-img{
+        margin-left:64px;
+        margin-top: 64px
+    }
+    .about-us-container{
+        padding:36px 36px;
+    }
+    .header-container{
+        padding:0 36px;
+    }
+    .cta-container{
+        
+        padding:0 36px;
+        
+    }
+    .cta-content{
+        margin:auto;
+    }
+    .footer-input{
+        width: 300px;
+    }
+    .footer-content{
+        padding:78px 8px 101px;
+    }
+    .blog-desc, .action-blog{
+        position:static;
+        max-width: 269px;
+    }
+    .blog-desc{
+        font-size:22px;
+    }
+    .action-blog{
+        margin-top:16px;
+    }
+    
+}
+/* mobile */
+@media (max-width:767px){
+    .header-container{
+        padding:0 16px;
+    }
+    .header-heading{
+        display: inline-block;
+        font-size: 41px;
+        line-height: 66px;
+        
+    }
+    p.header-description {
+        display: inline-block;
+        width:auto;
+        font-size: 16px;
+    }
+    .about-us-img{
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 36px
+    }
+    .about-us-container{
+        padding:24px 16px;
+    }
+    .about-us-small-img{
+        text-align: center;
+    }
+
+    .footer-sitemap{
+        flex-direction:column;
+    }
+    .cta-container{
+        padding:0 16px;
+    }
+    .cta-heading,.cta-intro,.cta-about-text{
+        text-align: center;
+    }
+    .cta-heading, .blog-top-heading, .ourteam-top-heading, .features-top-heading{
+        font-size: 33px;
+    }
+    .cta-intro{
+        margin-top:24px;
+        font-size:18px;
+    }
+    .cta-about-text{
+        margin-top: 15px;
+    }
+
+    .btn-arr-down{
+        display:block;
+    }
+    
+    .img-main{
+        width:100%;
+    }
+    .card-awards{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .text-ourach-content{
+        margin-bottom: 36px;
+    }
+    .btn-outrach-content{
+        position:static;
+    }
+    .features-container{
+        padding:24px 16px !important;
+    }
+    
+    .about-text-ourach-content{
+        margin-bottom: 36px;
+    }
+    .features-top-about-text{
+        position:static;
+        transform: translateX(0);
+    }
+    .features-content{
+        margin-top: 48px;
+    }
+    .features-item-heading{
+        font-size:19px
+    }
+    
+    .cta{
+        position: relative;
+    }
+    .ourteam-container, .cta-content{
+        margin:auto;
+    }
+    
+    .footer-bottom{
+        position:static;
+    }
+    .footer-bottom-container{
+        padding:0 16px;
+    }
+    .features-content-item-cotainer{
+        padding: 30px 30px 44px 30px;
+    }
+    .text-desc{
+        margin-top:8px;
+    }
+    .ourteam-container{
+        padding:24px 16px;
+       
+        
+    }
+    .ourteam-top-about-text{
+        position:static;
+        transform: translateX(0);
+    }
+    .ourteam-menu {
+        margin-top:48px;
+    }
+    .ourteam-menu li{
+        padding:18px 35px;
+    }
+    .ourteam-menu li:hover{
+        padding:16px 35px;
+    }
+    .blog-container{
+        padding:24px 16px;
+    }
+    
+    .blog-desc{
+        font-size:11px;
+    }
+    .action-blog{
+        font-size: 11px;
+    }
+    .phone {
+        position: absolute;
+        width: 360px;
+        right: 0;
+        bottom:0;
+        left:0;
+        
+    }
+    .footer-sitemap-item-child{
+        height:0;
+        overflow: hidden;
+        padding-top:20px;
+        
+    }
+    .footer-sitemap-item{
+        position:relative;
+        margin-bottom:12px;
+        
+       
+    }  
+    .icon-bottom {
+        position: absolute;
+        transform: translateY(-57px);   
+    }
+    .aaa:hover{
+        background-color:#ccc;
+    }
+
+    .btn-sitemap{
+        font-size:16px;
+    }
+    .footer-ul-child li{
+        font-size:13px
+    }
+    .btn-login{
+        padding: 12px 22px;
+        display: none;
+    }
+    i.nav__search.fa-solid.fa-magnifying-glass {
+        display: none;
+    }
+    .nav__bar{
+        display: block;
+        position:absolute;
+        left:15px;
+        top:24px;
+    }
+    
+
+    .icon-login{
+        display:block;
+        position:absolute;
+        right: 15px;
+        top:24px;
+    }
+
+    
+    
+    
+    
+    /* Ipad-pro */
+    
+}
+
+@media(min-width: 1024px) and (max-width:1366px){
+    #main{
+        margin:0 auto;
+    }
+    .header-container {
+        padding:0px 24px;
+    }
+    .about-us-container, .ourachievement-container, .blog-container,
+    .ourteam-container{
+        padding: 75px 24px;
+        
+    }
+    .footer-content{
+        gap:0 100px
+    }
+    .blog-body{
+        gap:0 0;
+    }
+    .about-us-img {
+        margin-left: 0;
+    }
+    #cta{
+        position: relative;
+    }
+    
+    .heading-ourach-content{
+        font-size:26px;   
+    }
+    .ourach-content{
+        margin-left: 26px;
+    }
+    .img-phone{
+        width: 100%;
+    }
+    .header-main{
+        padding:70px 0;
+    }
+    .header-img{
+        width:500px
+    }
+
+}
+
+
+
